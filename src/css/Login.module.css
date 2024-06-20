@@ -1,0 +1,49 @@
+/* Estilos para el formulario de inicio de sesión */
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura al 100% de la ventana */
+  background-color: #2e426c; /* Color de fondo opcional */
+}
+
+.form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #FCA311;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #14213D;
+}
+
+.loginIcon {
+  color: #FCA311;
+  font-size: 100px;
+  margin-bottom: 20px;
+  margin-left: 33%;
+}

@@ -1,0 +1,27 @@
+/* Footer.module.css */
+.footer {
+  background-color: #14213D;
+  color: #fff;
+  padding: 20px;
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-between; /* Distribute items evenly between the start and end */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.container {
+  width: 100%; /* Make the container take up the full width */
+}
+
+.copyright {
+  flex-grow: 1; /* Allow the copyright section to grow to fill the available space */
+  text-align: left; /* Align the copyright text to the left */
+}
+
+@media (max-width: 768px) {
+  /* For screens smaller than 768px, stack the copyright and "Hecho con" sections on top of each other */
+  .copyright{
+    flex-basis: 100%; /* Make each section take up the full width of the screen */
+    text-align: center; /* Center the text on both sections */
+  }
+}
